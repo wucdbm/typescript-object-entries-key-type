@@ -12,21 +12,21 @@ declare type RatingWithLabel = {
     label: string
 }
 
-declare type RatingStarsCollection = {
+declare type RatingStarsWithLabel = {
     [K in RatingFields]: RatingWithLabel;
 }
 
 declare type Rating = {
-    stars: RatingStarsCollection
+    stars: RatingStarsWithLabel
     feedback: string
 }
 
-declare type BackendStars = {
+declare type RatingStars = {
     [K in RatingFields]: RatingValues;
 }
 
 declare type BackendRatingRequest = {
-    stars: BackendStars
+    stars: RatingStars
     feedback: string
 }
 
