@@ -1,0 +1,23 @@
+{
+  "name": "typescript-object-entries-key-type",
+  "version": "1.0.0",
+  "description": "TypeScript Object.entries known key type",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wucdbm/typescript-object-entries-key-type.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wucdbm/typescript-object-entries-key-type/issues"
+  },
+  "homepage": "https://github.com/wucdbm/typescript-object-entries-key-type#readme",
+  "dependencies": {
+    "typescript": "^3.7.3"
+  }
+}
